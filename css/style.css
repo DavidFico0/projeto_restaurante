@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: rgb(248, 246, 246);
+}
+
+.logoHeader{
+    width: 120px;
+}
+
+.logoFooter {
+    width: 220px;
+}
+
+header{
+    border-bottom: 1px solid rgb(201, 200, 200);
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+header h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding:0;
+}
+
+header h2 {
+    margin-top: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav{
+    float: left;
+    width: 300px;
+    background-color: white;
+}
+
+nav ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+section{
+    border-left: 1px solid rgb(201, 200, 200);
+    padding-left: 15px;
+    float: right;
+    width: 610px;
+}
+
+section a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+section .divTexto{
+    float: left;
+    width: 60%;
+}
+
+section .divImg{
+    float: left;
+    width: 40%;
+}
+
+footer {
+    background-color: gray;
+    border-top: 1px solid rgb(201, 200, 200);
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.divLogo{
+    padding: 15px;
+    float: left;
+    width: 30%;
+    background-color: gray;
+}
+
+.divRodapeMenu{
+    padding: 20px;
+    float: right;
+    width: 30%;
+    text-align: right;
+    background-color: gray;
+}
+
+.divRodapeMenu p {
+    margin: 0;
+    padding: 0;
+}
+
+.divRodapeMenu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
